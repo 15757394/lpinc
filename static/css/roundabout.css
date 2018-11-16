@@ -1,0 +1,243 @@
+﻿/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Global Structure ============================================================= */
+.container {
+	margin: 0 auto;
+	position: relative;
+	width: 1000px;
+}
+
+
+	/*Gallery*/
+	#gallery {
+
+		overflow:hidden;
+	}
+
+	/* Content */
+	#content {
+		float: left;
+		width: 572px;
+	}
+
+
+/* Left & Right alignment */
+
+.fleft { float:left;}
+.fright { float:right;}
+.clear { clear:both;}
+
+.col-1, .col-2, .col-3 { float:left;}
+
+.alignright { text-align:right;}
+.aligncenter { text-align:center;}
+
+.wrapper {
+	width:100%;
+	overflow:hidden;
+}
+
+/* The inside class provides consistent padding. To be used often! */
+.inside{ padding: 32px 37px 50px 37px; }
+
+
+/*----- other -----*/
+figure { margin-bottom:18px;}
+
+.img-indent {
+	margin:0 20px 0 0;
+	float:left;
+}
+.img-box {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:15px;
+}
+	.img-box figure {
+		float:left;
+		margin:0 20px 0 0;
+		padding:0;
+	}
+
+.extra-wrap {
+	overflow:hidden;
+}
+}
+
+
+/*----- txt, links, lines, titles -----*/
+
+/*==================boxes====================*/
+.main-box {
+	border-top:5px solid #eaeaea;
+	background:#fff;
+	width:100%;
+}
+
+
+.contacts {
+	padding-bottom:20px;
+}
+	.contacts li {
+		width:100%;
+		overflow:hidden;
+	}
+		.contacts li strong {
+			float:left;
+			width:95px;
+		}
+
+
+.list1 {
+	margin-left:12px;
+	padding-bottom:18px;
+}
+.list1 li {
+	background:url(../images/arrow1.gif) no-repeat 0 6px;
+	padding:0 0 0 12px;
+}
+
+
+/*===== gallery =====*/
+.roundabout-holder  {
+	width:850px;
+	height:496px;
+	margin:0 auto;
+}
+.roundabout-moveable-item {
+   width: 646px;
+   height: 416px;
+   cursor: pointer;
+	 border:3px solid #ccc;
+	 border:3px solid rgba(0, 0, 0, 0.08);
+   border-radius:4px;
+	 -moz-border-radius:4px;
+	 -webkit-border-radius:4px;
+}
+	.roundabout-moveable-item img{
+		width:100%;height:100%;
+	}
+.roundabout-in-focus {
+	border:3px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/*===== content =====*/
+#content {
+
+}
+	#content img, aside img {
+		border:3px solid #ebebeb;
+		border-radius:4px;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+	}
+	#content img:hover {
+		border-color:#bbb;
+	}
+
+.team-list li {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:43px;
+}
+.team-list li:last-child {
+	padding-bottom:0;
+}
+	.team-list li figure {
+		float:left;
+		margin:0 20px 0 0;
+		padding:0;
+	}
+
+
+/*--- loopedSlider styles ---*/
+/*
+ * Required
+*/
+#loopedSlider .wrap { width:295px; height:295px; overflow:hidden; position:relative;}
+#loopedSlider .slides { position:absolute; top:0; left:0; }
+#loopedSlider .slides div { position:absolute; top:0; width:295px; display:none; }
+/*
+ * Optional
+*/
+#loopedSlider { width:295px; position:relative; clear:both; }
+#loopedSlider .nav-controls {
+	width:100%;
+	overflow:hidden;
+	padding-top:10px;
+}
+#loopedSlider li {
+	display:inline;
+}
+#loopedSlider li a.previous {
+	float:left;
+}
+#loopedSlider li a.next {
+	float:right;
+}
+
+
+
+
+/*===== footer =====*/
+footer {
+	color:#fff;
+}
+	footer .fleft {
+		padding-left:40px;
+	}
+	footer .fright {
+		padding-right:40px;
+	}
+
+
+/*----- forms -----*/
+#contacts-form {
+	clear:right;
+	width:100%;
+	overflow:hidden;
+}
+	#contacts-form fieldset {
+		border:none;
+		float:left;
+	}
+		#contacts-form .field {
+			clear:both;
+		}
+			#contacts-form label {
+				float:left;
+				width:110px;
+				line-height:18px;
+				padding-bottom:6px;
+				font-weight:bold;
+			}
+			#contacts-form input {
+				width:205px;
+				padding:1px 0 1px 3px;
+				background:none;
+				border:1px solid #e5e5e5;
+				color:#616161;
+				float:left
+			}
+			#contacts-form input:invalid {
+				border-color:red;
+			}
+			#contacts-form textarea {
+			rm textarea {
+				width:450px;
+				height:215px;
+				paddin			px 0 1px 3px;
+							kground:none;
+				border:1p			olid #e5e5e5;
+					olor:#616161;
+				mar			-bottom:12px;
+					verflow:auto								oat:left;
+			}
+			#contacts-form 			:last-child {
+				pa			ng-left:110px;
+			}
+
+/*==========================================*/

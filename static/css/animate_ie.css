@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+/**
+ * @Filename:animate_ie.css
+ * @Author By:zero XC
+ * @Create Date:2015-06-30
+ * IE10以下动画去除css
+*/
+body .img_l_up{margin-top:0px;opacity:1;}
+body .text_r_r{padding-left:0px;opacity:1;}
+body .img_r_up{margin-top:0px;opacity:1;}
+body .text_l_r{margin-left:0px;opacity:1;}
+body .img_l_l{margin-left:0px;opacity:1;}
+body .text_r_d{margin-top:0px;opacity:1;}
+body .img_r_r{margin-right:50px;opacity:1;}
+
+
+
+
+
+
+

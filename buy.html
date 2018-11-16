@@ -33,7 +33,7 @@
         </div>
         <ul class="nav fl">
             <li><a href="http://sighttp.qq.com/authd?IDKEY=2c85f139fa6614a5460a47321e5ab9d018378b5630856204" >首页</a></li>
-            <li><a href="/product/product.html" id="product-page" >解决方案<i></i></a></li>
+            <li><a href="/product.html" id="product-page" >解决方案<i></i></a></li>
             <li><a href="/successcase.html" >案例</a></li>
             <li><a href="/buy.html" class="cur" >价格</a></li>
             <li><a href="/support.html" >下载</a></li>
@@ -43,7 +43,7 @@
     <div class="yellow-tips">非常抱歉，您正在使用的浏览器版本过低，无法正常访问我们的网站，请升级浏览器或使用其它浏览器访问，谢谢！</div>
 </div>    <!--导航 end-->
 
-    <div class="wrap buy_wrap">
+   <div class="wrap buy_wrap">
         <h2 class="h2 charges">EC专业版、大客户行业专版资费</h2>
 
         <div class="buytab">
@@ -69,6 +69,14 @@
                     <a title="购买咨询-大客户行业专版" href="http://sighttp.qq.com/authd?IDKEY=2c85f139fa6614a5460a47321e5ab9d018378b5630856204" class="i-buy-btn" target="_blank">购买咨询</a>
                 </div>
             </div>
+            <p class="remark"></p>
+            <!-- <div class="dowpdf"><a href="//www.staticec.com/www/images/new/EC-price.pdf" target="_blank">下载专业版功能介绍</a></div> -->
+            <!--<h2 class="h2 charges">增值服务</h2>-->
+            <!--<div class="appreciation">-->
+                <!--<p><span>3600元/年</span>H5场景秀</p>-->
+            <!--</div>-->
+
+
             <div class="production">
                 <h2 class="h2 charges">增值服务产品</h2>
                 <table class="pro-table">
@@ -76,13 +84,13 @@
                         <th width="35%">功能</th>
                         <th>价格</th>
                     </tr>
-                   <tr>
+                   <!--  <tr>
                         <td>H5场景秀</td>
                         <td>
                             <div class="t-price">2000元/年</div>
                             快捷制作动画与视频形式的H5社交传播，可以数据回流，低成本获取客户
                         </td>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <td>在线客服</td>
                         <td>
@@ -135,8 +143,71 @@
 
                 </table>
             </div>
-    
-        <div class="jxsinfo2" id="cs_list"></div>   
+
+            <!-- <div class="explain">
+                <h2 class="h2 charges">EC云呼如何续费？</h2>
+                尊敬的EC用户，感谢您一直以来对EC的关注与支持。<br/>
+                如果您使用的EC云呼的时长即将用完，请提前联系您购买区域代理商进行充值续费。目前EC平台尚不支持在线充值功能，如有需求，请直接与代理商联系或拨打免费热线400-0060-100。EC云呼每次充值的最低额度为人民币1000元，充值的金额为100的整数倍。
+            </div> -->
+        </div>
+
+
+        <!--<p class="charge_detail">-->
+            <!--<a href="javascript:;" id="showpay">资费详细说明</a>-->
+        <!--</p> -->
+
+        <!--&lt;!&ndash;展开的内容 开始&ndash;&gt;-->
+        <!--<div id="payinfo" class="mhold" style="display:none">-->
+            <!--<span>1、购买年限</span>-->
+            <!--<p> EC最低购买期限：1年。</p>-->
+            <!--<span>2、增加账号数</span> -->
+            <!--<p> EC支持以10为单位增加账号数，但增加账号数时的单价按照用户首次购买时享受的单价进行计算，首次购买账号数越多，以后增加账号数的单价越低。</p>-->
+            <!--<p>EC账号数增加后的使用费按天收取，根据到期时间，计算剩余时间内应付的使用费用。</p>-->
+            <!--<p>企业套餐升级费用=（新增账号数*首次购买单价）/365*剩余天数。（账号数以10为单位） </p>-->
+            <!--<span>3、续费说明</span>-->
+            <!--<p>合同结束后，企业如果想继续使用我们的服务，请及时续费，以保证服务能够正常使用。</p>-->
+            <!--<span>4、续费注意事项：</span>-->
+            <!--<p>1、EC到期前一个月时，可以开始联系代理商办理续约，续费价格见EC资费标准；</p>-->
+            <!--<p>2、到期后未续费，则EC账号将暂停使用；六个月没有续费的，EC账号将全部被回收，企业在EC中存留的数据也将全部清除。</p>-->
+            <!--<p>3、使用有效期自续费当日开始算起。</p>-->
+            <!--<p>4、签署续约协议后，3个工作日内完成续约，完成后系统正常使用，系统内所有信息不受影响。</p>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;展开的内容 end&ndash;&gt;-->
+
+        <div class="jxsinfo2" id="cs_list"></div>
+
+        <!--经销商查询 开始-->
+        <div class="dealer" id="agent_search" style="display:none">
+            <h2 class="h2 charges">您也可以在线查询为您服务的公司是不是EC授权经销商？</h2>
+            <p class="serch pre"><input id="aname" type="text" value="" placeholder="请输入公司全称"/><a href="javascript:void(0)" onclick="searchAgent()" class="buy_bttn" title="查询">查询</a></p>
+            <div id="tip" style="display:none;"></div>
+        </div>
+        <!--经销商查询 end-->
+
+        <!--经销商信息 开始-->
+        <div class="buytab search-buy">
+            <div class="mainL_top">
+                <h2 class="h2 charges" id="noagents"></h2>
+                <h2 class="h2 charges" id="hasagents">您所在地区的经销商信息如下：</h2>
+            </div>
+            <table class="tab">
+                <thead>
+                <tr>
+                    <th width="25%">授权经销商</th>
+                    <th width="25%">销售区域</th>
+                    <th width="25%">地址信息</th>
+                    <th width="25%">联系信息</th>
+                </tr>
+                </thead>
+                <tbody id="agentinfo">
+                </tbody>
+            </table>
+            <p id="hasshow" class="hasshow">若以上地区经销商不符合您的要求，请直接拨打EC营客通总部为您服务，咨询热线：400-0060-100</p>
+        </div>
+
+    </div>
+</div>
+
 <!--页脚-->
 <!--页脚-->
 <!-- <div class="footerPadding"></div> -->

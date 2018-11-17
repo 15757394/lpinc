@@ -1,0 +1,123 @@
+﻿.view.pr footer{
+    position: fixed;
+}
+.fl {
+    float: left;
+}
+.flr {
+    float: right;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    content: ' ';
+    display: table;
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* 现price页面样式start */
+.view.pr .container {
+    margin: 44px auto 44px;
+}
+.view.pr .profession {
+    width: 100%;
+    display: table;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+}
+.view.pr .profession .wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+.view.pr .profession.industry {
+    background-color: #f6f6f7;
+}
+.view.pr .profession .title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+.view.pr .profession .sub-title {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.view.pr .profession .price {
+    color: #5bcc1f;
+    font-size: 27px;
+}
+.view.pr .profession .price span {
+    color: #5bcc1f;
+    font-size: 14px;
+    margin-right: 6px;
+}
+.view.pr .profession.industry .price, .view.pr .profession.industry .price span {
+    color: #ed6025;
+}
+.view.pr .profession .price-unit {
+    margin-bottom: 10px;
+}
+.view.pr .profession .price-unit span {
+    padding: 3px 7px;
+    background: #f0efef;
+}
+.view.pr .profession .description {
+    max-width: 60%;
+    margin: 0 auto;
+}
+.view.pr .profession .buy-advisory {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 4px 10px;
+    margin-top: 10px;
+    background-color: #5bcc1f;
+}
+.view.pr .profession .buy-advisory:active {
+    background-color: #62d824;
+}
+
+
+.view.pr .product {
+    background-color: #f0f1f2;
+    padding: 32px 0 18px;
+}
+.view.pr .product h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.view.pr .product ul {
+    margin: 0 18px;
+    list-style: none;
+}
+.view.pr .product li {
+    padding-top: 16px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.view.pr .product .product-name {
+    font-size: 14px;
+    color: #262626;
+    font-weight: 600;
+}
+.view.pr .product .product-price {
+    color: #37A900;
+    font-size: 14px;
+    font-weight: 600;
+}
+.view.pr .product li .description {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+.view.pr .product li .description-more {
+   color: #4D4D4D;
+   font-size: 12px;
+}
